@@ -19,7 +19,6 @@ public class ResultInfo<T> implements IResultInfo<T> {
 	private List<T> resultSet; 
 	private String description; 
 	private long count;
-	int i=0;
 	
 	public ResultInfo(String strBusinessCode,List<T> listResultSet, long lCount, String strDescription) {
 		businessCode=strBusinessCode;
